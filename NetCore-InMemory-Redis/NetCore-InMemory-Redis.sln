@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore-InMemory", "NetCore-InMemory.csproj", "{209295F5-DE7E-47A7-A62B-915E99463A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore-Redis", "..\NetCore-Redis\NetCore-Redis.csproj", "{55C44F8E-3C77-48A5-84AE-335709779739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{209295F5-DE7E-47A7-A62B-915E99463A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209295F5-DE7E-47A7-A62B-915E99463A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209295F5-DE7E-47A7-A62B-915E99463A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209295F5-DE7E-47A7-A62B-915E99463A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C44F8E-3C77-48A5-84AE-335709779739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C44F8E-3C77-48A5-84AE-335709779739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C44F8E-3C77-48A5-84AE-335709779739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C44F8E-3C77-48A5-84AE-335709779739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1F0D0B7-A757-4A23-81B1-94AC68A7367C}
+	EndGlobalSection
+EndGlobal
